@@ -1,0 +1,450 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.margin, .dav {
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+body {
+  background-color: rgb(247, 247, 247);
+}
+
+.main {
+  position: fixed;
+  width: 100%;
+}
+
+#mya {
+  text-decoration: none;
+  color: rgb(0, 162, 255);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.text p:hover {
+  color: rgb(0, 162, 255);
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgb(0, 162, 255);
+}
+
+.tops {
+  background-color: white;
+  justify-content: space-between;
+  padding-left: 125px;
+  padding-right: 125px;
+  display: flex;
+  align-items: center;
+  width: 81.4%;
+  height: 80px;
+  box-shadow: 0px 5px 10px gray;
+}
+.tops img {
+  width: 200px;
+}
+.tops .text {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.text_1 {
+  margin-top: 50px;
+}
+
+.top_1 {
+  padding-top: 200px;
+  display: flex;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+.text_1 p {
+  line-height: 25px;
+  margin-top: 25px;
+  font-weight: 700;
+  color: gray;
+  font-size: 13px;
+}
+.text_1 h1 {
+  font-size: 40px;
+  line-height: 50px;
+}
+.text_1 h1 span {
+  color: rgb(0, 140, 255);
+}
+
+.nashi_usligi h1 {
+  margin-top: 170px;
+  text-align: center;
+  font-size: 27px;
+}
+.nashi_usligi .khat {
+  margin: auto;
+  margin-top: 10px;
+  width: 80px;
+  border-bottom: 1px solid rgb(0, 162, 255);
+}
+.nashi_usligi .khat:hover {
+  width: 150px;
+  transition: 0.5s;
+}
+
+.div3 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+.div3 .div_1 {
+  width: 345px;
+  height: 280px;
+  border-radius: 5px;
+  background-color: white;
+}
+.div3 .div_1 h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.div3 .div_1 p {
+  line-height: 25px;
+  margin-top: 25px;
+  font-weight: 700;
+  color: gray;
+  font-size: 13px;
+  text-align: center;
+}
+.div3 .div_1:hover {
+  transition: 1s;
+  box-shadow: 0px 0px 30px gray;
+}
+.div3 .div_2:hover {
+  transition: 1s;
+  box-shadow: 0px 0px 30px gray;
+}
+.div3 .div_3:hover {
+  transition: 1s;
+  box-shadow: 0px 0px 30px gray;
+}
+.div3 .div_2 {
+  width: 345px;
+  height: 280px;
+  border-radius: 5px;
+  background-color: white;
+}
+.div3 .div_2 h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.div3 .div_2 p {
+  line-height: 25px;
+  margin-top: 25px;
+  font-weight: 700;
+  color: gray;
+  font-size: 13px;
+  text-align: center;
+}
+.div3 .div_3 {
+  width: 345px;
+  height: 280px;
+  border-radius: 5px;
+  background-color: white;
+}
+.div3 .div_3 h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.div3 .div_3 p {
+  line-height: 25px;
+  margin-top: 25px;
+  font-weight: 700;
+  color: gray;
+  font-size: 13px;
+  text-align: center;
+}
+.div3 .gird:hover {
+  background-color: rgb(0, 162, 255);
+}
+.div3 .gird {
+  width: 75px;
+  height: 75px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+}
+.div3 .gird i {
+  color: rgb(0, 162, 255);
+  margin-top: 20px;
+  font-size: 30px;
+}
+.div3 .gird i:hover {
+  color: white;
+}
+
+.dav {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.dav .diva_1 {
+  display: flex;
+  width: 450px;
+  height: 140px;
+  background-color: white;
+  margin-top: 30px;
+}
+.dav .logo i {
+  font-size: 30px;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+.dav .diva_1:hover {
+  transition: 1s;
+  box-shadow: 0px 0px 30px gray;
+}
+.dav .text {
+  text-align: justify;
+  margin-top: 25px;
+}
+.dav .text p {
+  margin-left: 45px;
+  text-align: justify;
+}
+
+.texts h3 {
+  margin-top: 15px;
+  margin-left: 60px;
+  font-size: 18px;
+  text-align: end;
+}
+.texts p {
+  margin-left: 30px;
+  font-weight: 700;
+  color: gray;
+  font-size: 13px;
+  text-align: justify;
+  line-height: 25px;
+  margin-top: 10px;
+  text-align: end;
+}
+
+.logo {
+  margin-left: 10px;
+  color: rgb(0, 132, 255);
+}
+
+#class {
+  margin-left: -5px;
+}
+
+#myp {
+  margin-left: -10px;
+}
+
+#log {
+  margin-left: 15px;
+}
+
+.diva_2 {
+  display: flex;
+  width: 450px;
+  height: 140px;
+  background-color: white;
+  margin-top: 30px;
+}
+.diva_2 .logo i {
+  font-size: 30px;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+.diva_2 .text {
+  text-align: justify;
+  margin-top: 25px;
+}
+.diva_2 .text p {
+  margin-left: 45px;
+  text-align: justify;
+}
+.diva_2 .texts h3 {
+  margin-top: 15px;
+  margin-left: 40px;
+  font-size: 18px;
+  text-align: start;
+}
+.diva_2 .texts p {
+  margin-left: 40px;
+  font-weight: 700;
+  color: gray;
+  font-size: 13px;
+  text-align: justify;
+  line-height: 25px;
+  margin-top: 10px;
+  text-align: start;
+}
+.diva_2 .logo {
+  margin-left: 25px;
+  color: rgb(0, 132, 255);
+}
+
+.diva_2:hover {
+  transition: 1s;
+  box-shadow: 0px 0px 30px gray;
+}
+
+.otzivi {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(96, 164, 241);
+  margin-top: 150px;
+}
+.otzivi h1 {
+  margin-top: 170px;
+  text-align: center;
+  font-size: 27px;
+  color: white;
+  padding-top: 40px;
+}
+.otzivi .khats {
+  margin: auto;
+  margin-top: 10px;
+  width: 60px;
+  border-bottom: 1px solid rgb(0, 162, 255);
+}
+.otzivi .khats:hover {
+  width: 150px;
+  transition: 0.5s;
+}
+.otzivi .otz {
+  width: 350px;
+  height: 440px;
+  background-color: white;
+  margin-left: 125px;
+  border-radius: 5px;
+}
+.otzivi .otz .gird {
+  width: 75px;
+  height: 75px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+}
+.otzivi .otz .gird i {
+  color: rgb(0, 162, 255);
+  margin-top: 20px;
+  font-size: 30px;
+}
+.otzivi .otz .gird i:hover {
+  color: white;
+}
+.otzivi .otz h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.otzivi .otz p {
+  line-height: 25px;
+  margin-top: 25px;
+  font-weight: 700;
+  color: gray;
+  font-size: 13px;
+  text-align: center;
+}
+.otzivi .otz1 {
+  width: 350px;
+  height: 440px;
+  background-color: white;
+  margin-left: 25px;
+  border-radius: 5px;
+}
+.otzivi .otz1 .gird {
+  width: 75px;
+  height: 75px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+}
+.otzivi .otz1 .gird i {
+  color: rgb(0, 162, 255);
+  margin-top: 20px;
+  font-size: 30px;
+}
+.otzivi .otz1 .gird i:hover {
+  color: white;
+}
+.otzivi .otz2 {
+  border-radius: 5px;
+  width: 350px;
+  height: 440px;
+  background-color: white;
+  margin-left: 25px;
+}
+.otzivi .otz2 h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.otzivi .otz2 p {
+  line-height: 25px;
+  margin-top: 25px;
+  font-weight: 700;
+  color: gray;
+  font-size: 13px;
+  text-align: center;
+}
+.otzivi .otz2 .gird {
+  width: 75px;
+  height: 75px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+}
+.otzivi .otz2 .gird i {
+  color: rgb(0, 162, 255);
+  margin-top: 20px;
+  font-size: 30px;
+}
+.otzivi .otz2 .gird i:hover {
+  color: white;
+}
+
+.myaa {
+  margin-top: 50px;
+  display: flex;
+}
+
+.soft {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.soft:hover {
+  background-color: green;
+}
+.soft:hover h1 {
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}/*# sourceMappingURL=style.css.map */
